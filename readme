@@ -1,0 +1,44 @@
+Semi-automatic check for adherence to the Liskov Substitution Principle.
+
+Usage example: 'liskovcheck 'c:\\path\\to\\assembly\\MyAssembly\.dll'
+
+-----------------------------------------------------------------------
+
+Read the output and see if it makes sense:
+
+"It looks like a Duck and behaves like an Animal."
+makes it look more likely that there is strong behavioral subtyping.
+
+"It looks like a Duck and behaves like a TransistorRadio."
+makes it a lot less likely.
+
+------------------------------------------------------------------------
+
+
+Definition of the Liskov Substitution Principle:
+
+
+
+	"Liskov substitution principle (LSP) is a particular definition of a
+ 
+	subtyping relation, called (strong) behavioral subtyping,"
+
+
+		(from http://en.wikipedia.org/wiki/Liskov_substitution_principle)
+
+
+
+...also known as:
+
+
+
+	"If it looks like a duck, quacks like a duck, but needs batteries – you probably have the wrong abstraction."
+		(from http://www.lostechies.com/blogs/derickbailey/archive/2009/02/11/solid-development-principles-in-motivational-pictures.aspx )
+
+
+
+For more information, see http://birding.about.com/od/birdprofiles/tp/typesofducks.htm
+
+
+
+
