@@ -1,0 +1,5 @@
+﻿name: LiskovChecker
+depends: openwrap anchored content
+depends: specflow
+depends: nunit
+depends: moq
