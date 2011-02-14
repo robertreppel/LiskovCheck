@@ -34,6 +34,7 @@ Definition of the Liskov Substitution Principle:
 
 	"If it looks like a duck, quacks like a duck, but needs batteries – you 
 	probably have the wrong abstraction."
+
 		(from http://www.lostechies.com/blogs/derickbailey/archive/2009/02/11/solid-development-principles-in-motivational-pictures.aspx )
 
 
